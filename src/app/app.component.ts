@@ -9,7 +9,12 @@ export class AppComponent {
   title = 'implementDiffrentProjects';
 
   Pull(){
-
+    console.log("hj")
+    document.getElementById('BackStagde')!.style.zIndex = "z-index:2";
+    console.log( document.getElementById('BackStagde')!.style.zIndex = `z-index:2`);
+    console.log( document.getElementById('BackStagde')!.style.zIndex);
+    
+    
   }
   
 }
